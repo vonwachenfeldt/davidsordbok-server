@@ -4,8 +4,6 @@ const dotenv = require("dotenv");
 
 dotenv.config({ path: __dirname + "/config/davidsordbok.env" });
 
-console.log(__dirname);
-
 // Set up global connections variable
 if (!global.connections) global.connections = {};
 
